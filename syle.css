@@ -1,0 +1,160 @@
+
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #6A2C70;
+}
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+buttons {
+    font-family: 'Oswald', sans-serif;}
+
+header {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 10vh;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    
+    
+}
+.logo-container, .cart, .nav-links {
+    display: flex;
+
+}
+
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    margin: 5px;
+    font-weight: 400;
+    color: #F9ED69;
+    position: sticky;
+
+    
+}
+
+nav {
+    flex: 2;
+    
+}
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link {
+    color: #F9ED69;
+    font-size: 18px;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #6A2C70;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.19);
+}
+
+.nav-link:hover {
+    color: #B83B5E;
+    box-shadow: inset 100px 0 0 0 #F9ED69;
+    color: #6A2C70;
+    
+}
+
+.presentation {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 80vh;
+    align-items: center;
+    text-align: center;
+    color: #F9ED69;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.19);
+}
+.introduction {
+    flex: 1;
+}
+
+.orange {
+    color: #FFA500;
+}
+
+.cover {
+    flex: 1;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+.cover img {
+    height: 100%;
+    animation: drop 1.5 ease;
+}
+
+
+
+.services {
+    align-items: center;
+    width: 90%;
+    height: 80vh;
+    padding-top: 100px;
+    align-items: center;
+}
+
+  .services h1 {
+      color: #F9ED69;
+      align-items: center;
+      text-align: center;
+      text-shadow: 2px 2px 2px rgba(0,0,0,0.19);
+  }
+  .services h4 {
+    color: #FFA500;
+    align-items: center;
+    text-align: center;
+    font-weight: lighter;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.19);
+}
+    .services ul {
+
+      color: #F9ED69;
+      list-style-position: inside;
+      text-align: center;
+      text-shadow: 2px 2px 2px rgba(0,0,0,0.19);
+    }
+    
+    @media screen and (max-width: 1024px) {
+        .presentation {
+            flex-direction: column;
+        }
+        .introduction {
+            margin-top: 5vh;
+            text-align: center;
+        }
+        .intro-text h1 {
+            font-size: 30px;
+        }
+        .intro-text p {
+            font-size: 18px;
+        }
+        .cta {
+            padding: 10px 0px 0px 0px;
+        }
+    
+        
+        .cover img {
+            height: 80%;
+        }
+        .services {
+            font-size: 18px;
+            padding-top: 100%;
+    }
+    

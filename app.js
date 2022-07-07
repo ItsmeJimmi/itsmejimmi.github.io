@@ -1,5 +1,5 @@
 // function([string1, string2],target id,[color1,color2])    
-consoleText(["Hey I'm Jim, a WebDev", 'Go Fuck Yourself'], 'text',['#66fcf1', '#c4c6c8']);
+consoleText(["Hey I'm Jim, a WebDev", 'Go Fuck Yourself'], 'text',['#faed25', '#faed25']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
@@ -40,7 +40,7 @@ function consoleText(words, id, colors) {
   window.setInterval(function() {
     if (visible === true) {
       con.className = 'console-underscore hidden'
-      visible = false;
+      visible = true;
 
     } else {
       con.className = 'console-underscore'

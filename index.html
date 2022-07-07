@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2d6240b8a8.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+
+<div class="topnav">
+    <a href="#">JM</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#contact">Contact</a>
+
+  </div>
+
+  <div class="content">
+    <div class='console-container'>
+      <span id='text'></span>
+      <div class='console-underscore' id='console'>&#95;
+
+      </div>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem expedita, unde voluptatum vel doloribus consequatur, odio assumenda itaque blanditiis dicta hic ea voluptatibus atque necessitatibus id! Voluptates maiores voluptatum autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quaerat harum? Similique ducimus natus quidem quaerat adipisci sapiente deleniti deserunt, quod aliquam alias ullam explicabo quia laudantium odit fuga iusto?</p>
+    <ul>
+      <li class="list">List of my skills</li>
+      <li>Html</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+      <li>Python</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet natus aliquid voluptatem tenetur enim reprehenderit at in sit. Quas hic minus deserunt officiis! Et ducimus ex voluptate aperiam dolorem optio.</p>
+  </div>
+
+  <div class="divider"><span></span><span>Projects</span><span></span></div>
+  
+<div class="projects">
+  <h1>A calculator</h1>
+  <div class="calculator-grid">
+    <div class="output">
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand"></div>
+    </div>
+    <button data-all-clear class="span-two">AC</button>
+    <button data-delete>DEL</button>
+    <button data-operation>÷</button>
+    <button data-number>1</button>
+    <button data-number>2</button>
+    <button data-number>3</button>
+    <button data-operation>*</button>
+    <button data-number>4</button>
+    <button data-number>5</button>
+    <button data-number>6</button>
+    <button data-operation>+</button>
+    <button data-number>7</button>
+    <button data-number>8</button>
+    <button data-number>9</button>
+    <button data-operation>-</button>
+    <button data-number>.</button>
+    <button data-number>0</button>
+    <button data-equals class="span-two">=</button>
+</div>
+</div>
+     
+
+<div class="divider"><span></span><span>Contact Me</span><span></span></div>
+
+          
+        <a id="contact">
+        </a>
+        
+        <form>      
+            <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+            <input type="submit" value="SUBMIT"/>
+          </form>
+      
+        
+        <script src="app.js" async defer></script>
+        <script src="calc.js"></script>
+    </body>
+</html>
